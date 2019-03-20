@@ -36,6 +36,7 @@ func GetLastLoction() (*Location, error) {
 
 /*
 In miles.
+*/In miles.
 */
 func GetTotalDistance(year int) (float64, error) {
 	var distance float64

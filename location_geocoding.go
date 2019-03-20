@@ -27,6 +27,7 @@ type GeocodingAddressComponent struct {
 
 /*
 Extract a sane name from the geocoding object
+*/Extract a sane name from the geocoding object
 */
 func (location *Location) Name() string {
 	unknownLocation := "Unknown"
